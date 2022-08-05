@@ -1,15 +1,21 @@
+import Footer from 'components/Footer';
+import Home from 'components/Home';
+import Navbar from 'components/Navbar';
 import Head from 'next/head';
 import { FC } from 'react';
 
-const Home: FC = () => {
+const Index: FC = () => {
   return (
-    <div className="h-screen bg-red-50">
+    <div className="h-screen">
       <Head>
         <title>Codeation.io next-js template</title>
         <link href="/favicon.ico" rel="icon" />
       </Head>
+      <Navbar />
+      <Home />
+      <Footer />
     </div>
   );
 };
 
-export default Home;
+export default Index;

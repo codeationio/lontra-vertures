@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply dark:bg-gray-800;
-  @apply dark:text-gray-200;
-}
-
-* {
-  @apply dark:border-gray-600
+a:active{
+   @apply bg-[#ED5829]
 }
