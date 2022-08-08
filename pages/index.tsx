@@ -8,7 +8,7 @@ const Index: FC = () => {
   return (
     <div className="h-screen">
       <Head>
-        <title>Codeation.io next-js template</title>
+        <title>Lontra Ventures</title>
         <link href="/favicon.ico" rel="icon" />
       </Head>
       <Navbar />

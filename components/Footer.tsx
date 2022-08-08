@@ -2,15 +2,15 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <div className="flex justify-center">
+    <footer className="flex justify-center py-4">
       <div className="flex items-center gap-x-10">
         <figure>
           <Image alt="linkedin" height={30} src="/images/linkedin.svg" width={35} />
           <Image alt="twitter" height={30} src="/images/twitter.svg" width={35} />
         </figure>
-        <p>© 2023 by Lontra Ventures.</p>
+        <a href="https://www.lontraventures.com/">© 2023 by Lontra Ventures.</a>
       </div>
-    </div>
+    </footer>
   );
 };
 export default Footer;

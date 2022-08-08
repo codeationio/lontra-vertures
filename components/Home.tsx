@@ -2,13 +2,13 @@ import Image from 'next/image';
 
 const Home = () => {
   return (
-    <div className="m-0 flex h-[calc(100vh_-_7.5rem)] flex-col items-center justify-around bg-[url('/images/home-background-img.png')] bg-cover md:flex-row md:items-stretch md:justify-evenly">
+    <div className="m-0 flex h-[calc(100vh_-_8.7rem)] flex-col items-center justify-around bg-[url('/images/home-background-img.png')] bg-cover md:flex-row md:items-stretch md:justify-evenly">
       <div className="md:grid">
-        <div className=" flex flex-row items-start md:mt-20">
-          {/* <figure className="">
-            <Image alt="lontra-ventures-logo" height={80} src="/images/lontra-ventures-logo.png" width={80} />
-          </figure> */}
+        <div className=" flex flex-row items-start  md:mt-20">
           <figure className="">
+            <Image alt="lontra-ventures-logo" height={80} src="/images/lontra-ventures-logo.png" width={80} />
+          </figure>
+          <figure className="md:hidden">
             <Image alt="lontra-ventures-logo" height={50} src="/images/lontra-ventures-logo.png" width={50} />
           </figure>
           <div className="ml-5">
