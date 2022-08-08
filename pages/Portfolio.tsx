@@ -66,11 +66,10 @@ const Exits = [
 const Portfolio = () => {
   return (
     <>
-      <Navbar />
       <div className="bg-[url('/images/profile-background.jpg')] bg-contain">
         <div className="mt-20 flex flex-wrap justify-center">
           <header className="mb-10 w-fit text-3xl">Security</header>
-          <div className="grid h-96 w-full grid-cols-4  p-10">
+          <div className="grid h-96 w-full grid-cols-4 p-10">
             {Security.map((item, index) => (
               <figure key={index} className="mr-5 flex items-center justify-center text-center">
                 <Image alt="" height={50} src={item.url} width={item.width} />
@@ -129,7 +128,6 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

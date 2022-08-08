@@ -1,5 +1,3 @@
-import Footer from 'components/Footer';
-import Navbar from 'components/Navbar';
 import Profile from 'components/Profile';
 
 const data = [
@@ -21,7 +19,6 @@ const data = [
 const Technology = () => {
   return (
     <div>
-      <Navbar />
       {data.map((item, index) => (
         <Profile
           key={index}
@@ -36,7 +33,6 @@ const Technology = () => {
           siteUrl={item.siteUrl}
         />
       ))}
-      <Footer />
     </div>
   );
 };

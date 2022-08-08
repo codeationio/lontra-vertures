@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="m-0 flex h-[calc(100vh_-_8.7rem)] flex-col items-center justify-around bg-[url('/images/home-background-img.png')] bg-cover md:flex-row md:items-stretch md:justify-evenly">
       <div className="md:grid">
-        <div className=" flex flex-row items-start  md:mt-20">
+        <div className="flex flex-row items-start md:mt-20">
           <figure className="webImage">
             <Image alt="lontra-ventures-logo" height={80} src="/images/lontra-ventures-logo.png" width={80} />
           </figure>
@@ -18,7 +18,7 @@ const Home = () => {
         </div>
         <div className="mt-20 flex flex-col   md:m-0 md:items-baseline ">
           <h1 className="mb-5 text-2xl text-[#ED5829] md:text-5xl">Our Approach</h1>
-          <p className="text-lg font-light text-[#333333] md:text-3xl">
+          <p className="text-lg font-light text-[#333333] md:text-2xl">
             Embrace the long game. <br />
             High conviction, collaboration and <br />
             bold ambitions drive success. <br />

@@ -1,5 +1,3 @@
-import Footer from 'components/Footer';
-import Navbar from 'components/Navbar';
 import Profile from 'components/Profile';
 
 const data = [
@@ -25,26 +23,22 @@ const data = [
 const LifeScience = () => {
   return (
     <div>
-      <Navbar />
-      <div className="">
-        {data.map((item, index) => (
-          <Profile
-            key={index}
-            description1={item.description1}
-            description2={item.description2}
-            description3={item.description3}
-            description4={item.description4}
-            designation={item.designation}
-            heading={item.heading}
-            imageUrl={item.imageUrl}
-            linkedinUrl={item.linkedinUrl}
-            name={item.name}
-            siteName={item.siteName}
-            siteUrl={item.siteUrl}
-          />
-        ))}
-      </div>
-      <Footer />
+      {data.map((item, index) => (
+        <Profile
+          key={index}
+          description1={item.description1}
+          description2={item.description2}
+          description3={item.description3}
+          description4={item.description4}
+          designation={item.designation}
+          heading={item.heading}
+          imageUrl={item.imageUrl}
+          linkedinUrl={item.linkedinUrl}
+          name={item.name}
+          siteName={item.siteName}
+          siteUrl={item.siteUrl}
+        />
+      ))}
     </div>
   );
 };
