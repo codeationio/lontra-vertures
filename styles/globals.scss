@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-a:active{
-   @apply bg-[#ED5829]
+
+// .webImage{
+//    @apply @media screen {
+
+//    }
+// }
+
+@media screen and (max-width: 768px) {
+   .webImage{
+      display: none;
+   }
 }

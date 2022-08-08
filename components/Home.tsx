@@ -5,7 +5,7 @@ const Home = () => {
     <div className="m-0 flex h-[calc(100vh_-_8.7rem)] flex-col items-center justify-around bg-[url('/images/home-background-img.png')] bg-cover md:flex-row md:items-stretch md:justify-evenly">
       <div className="md:grid">
         <div className=" flex flex-row items-start  md:mt-20">
-          <figure className="">
+          <figure className="webImage">
             <Image alt="lontra-ventures-logo" height={80} src="/images/lontra-ventures-logo.png" width={80} />
           </figure>
           <figure className="md:hidden">
