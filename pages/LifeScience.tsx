@@ -26,22 +26,24 @@ const LifeScience = () => {
   return (
     <div>
       <Navbar />
-      {data.map((item, index) => (
-        <Profile
-          key={index}
-          description1={item.description1}
-          description2={item.description2}
-          description3={item.description3}
-          description4={item.description4}
-          designation={item.designation}
-          heading={item.heading}
-          imageUrl={item.imageUrl}
-          linkedinUrl={item.linkedinUrl}
-          name={item.name}
-          siteName={item.siteName}
-          siteUrl={item.siteUrl}
-        />
-      ))}
+      <div className="">
+        {data.map((item, index) => (
+          <Profile
+            key={index}
+            description1={item.description1}
+            description2={item.description2}
+            description3={item.description3}
+            description4={item.description4}
+            designation={item.designation}
+            heading={item.heading}
+            imageUrl={item.imageUrl}
+            linkedinUrl={item.linkedinUrl}
+            name={item.name}
+            siteName={item.siteName}
+            siteUrl={item.siteUrl}
+          />
+        ))}
+      </div>
       <Footer />
     </div>
   );
