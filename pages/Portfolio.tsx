@@ -97,7 +97,7 @@ const Portfolio = () => {
         {portfolio.map((item) => (
           <div key={item.title} className="flex flex-wrap justify-center pt-20">
             <header className="mb-10 w-fit text-5xl">{item.title}</header>
-            <div className="grid w-full grid-cols-4 p-10">
+            <div className="grid w-full grid-cols-1 p-10 md:grid-cols-2 lg:grid-cols-5">
               {item.items.map((item, index) => (
                 <figure key={index} className="bg-blur mr-5 flex items-center justify-center text-center">
                   <Image alt="" height={50} src={item.url} width={item.width} />
