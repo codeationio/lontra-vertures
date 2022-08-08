@@ -38,7 +38,9 @@ const Profile: FC<Props> = ({
             {siteName}
           </a>
           <Link href={linkedinUrl}>
-            <Image alt="linkdin" height={40} src="/images/linkedin.svg" width={45} />
+            <a>
+              <Image alt="linkdin" height={40} src="/images/linkedin.svg" width={45} />
+            </a>
           </Link>
         </div>
       </div>

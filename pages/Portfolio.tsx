@@ -1,6 +1,3 @@
-import Footer from 'components/Footer';
-import Navbar from 'components/Navbar';
-// import PortfolioBase from 'components/PortfoioBase';
 import Image from 'next/image';
 
 const Security = [
@@ -20,7 +17,7 @@ const Software = [
   { url: '/images/RackN-Logo.png', width: 200 },
   { url: '/images/Returnsafe_Logo.png', width: 200 },
   { url: '/images/stoplight.png', width: 200 },
-  { url: '/images/voltron-logo.png', width: 300 },
+  { url: '/images/voltron-logo.svg', width: 300 },
 ];
 
 const Crypto = [
