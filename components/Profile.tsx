@@ -33,8 +33,8 @@ const Profile: FC<Props> = ({
     <div className="flex flex-col justify-center bg-[url('/images/profile-background.jpg')] bg-cover md:flex-row md:gap-x-10">
       <div className="mt-20 flex flex-col items-center">
         <Image alt={imageUrl} height={200} src={imageUrl} width={170} />
-        <div className="flex items-center">
-          <a className="font-extralight text-green-600" href={siteUrl}>
+        <div className="flex flex-col items-center">
+          <a className="font-extralight text-[#ED5829]" href={siteUrl}>
             {siteName}
           </a>
           <Link href={linkedinUrl}>

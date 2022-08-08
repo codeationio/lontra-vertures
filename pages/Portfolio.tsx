@@ -20,7 +20,7 @@ const Software = [
   { url: '/images/RackN-Logo.png', width: 200 },
   { url: '/images/Returnsafe_Logo.png', width: 200 },
   { url: '/images/stoplight.png', width: 200 },
-  { url: '/images/voltron-logo.png', width: 200 },
+  { url: '/images/voltron-logo.png', width: 300 },
 ];
 
 const Crypto = [
@@ -63,70 +63,49 @@ const Exits = [
   { url: '/images/MediaFly-logo.jpeg', width: 100 },
 ];
 
+const portfolio = [
+  {
+    items: Security,
+    title: 'Security',
+  },
+  {
+    items: Software,
+    title: 'Software',
+  },
+  {
+    items: Crypto,
+    title: 'Crypto',
+  },
+  {
+    items: Emerging,
+    title: 'Emerging',
+  },
+  {
+    items: Healthcare,
+    title: 'Healthcare',
+  },
+  {
+    items: Exits,
+    title: 'Exits',
+  },
+];
+
 const Portfolio = () => {
   return (
     <>
-      <div className="bg-[url('/images/profile-background.jpg')] bg-contain">
-        <div className="mt-20 flex flex-wrap justify-center">
-          <header className="mb-10 w-fit text-3xl">Security</header>
-          <div className="grid h-96 w-full grid-cols-4 p-10">
-            {Security.map((item, index) => (
-              <figure key={index} className="mr-5 flex items-center justify-center text-center">
-                <Image alt="" height={50} src={item.url} width={item.width} />
-              </figure>
-            ))}
+      <div className="shaded bg-[url('/images/profile-background.jpg')] bg-contain">
+        {portfolio.map((item) => (
+          <div key={item.title} className="flex flex-wrap justify-center pt-20">
+            <header className="mb-10 w-fit text-5xl">{item.title}</header>
+            <div className="grid w-full grid-cols-4 p-10">
+              {item.items.map((item, index) => (
+                <figure key={index} className="bg-blur mr-5 flex items-center justify-center text-center">
+                  <Image alt="" height={50} src={item.url} width={item.width} />
+                </figure>
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="mt-20 flex flex-wrap justify-center">
-          <header className="mb-10 w-fit text-3xl">Software</header>
-          <div className="grid h-96 w-full grid-cols-4  p-10">
-            {Software.map((item, index) => (
-              <figure key={index} className="mr-5 flex items-center justify-center text-center">
-                <Image alt="" height={50} src={item.url} width={item.width} />
-              </figure>
-            ))}
-          </div>
-        </div>
-        <div className="mt-20 flex  flex-wrap justify-center">
-          <header className="mb-10 w-fit text-3xl">Crypto</header>
-          <div className="grid h-96 w-full grid-cols-4  p-10">
-            {Crypto.map((item, index) => (
-              <figure key={index} className="mr-5 flex items-center justify-center text-center">
-                <Image alt="" height={50} src={item.url} width={item.width} />
-              </figure>
-            ))}
-          </div>
-        </div>
-        <div className=" mt-20 flex flex-wrap justify-center">
-          <header className="mb-10 w-fit text-3xl">Emerging</header>
-          <div className="grid h-96 w-full grid-cols-4  p-10">
-            {Emerging.map((item, index) => (
-              <figure key={index} className="mr-5 flex items-center justify-center text-center">
-                <Image alt="" height={50} src={item.url} width={item.width} />
-              </figure>
-            ))}
-          </div>
-        </div>
-        <div className="mt-20 flex flex-wrap justify-center">
-          <header className="mb-10 w-fit text-3xl">Healthcare</header>
-          <div className="grid h-96 w-full grid-cols-4  p-10">
-            {Healthcare.map((item, index) => (
-              <figure key={index} className="mr-5 flex items-center justify-center text-center">
-                <Image alt="" height={50} src={item.url} width={item.width} />
-              </figure>
-            ))}
-          </div>
-        </div>
-        <div className="mt-20 flex flex-wrap justify-center">
-          <header className="mb-10 w-fit text-3xl">Exits</header>
-          <div className="grid h-96 w-full grid-cols-4  p-10">
-            {Exits.map((item, index) => (
-              <figure key={index} className="mr-5 flex items-center justify-center text-center">
-                <Image alt="" height={50} src={item.url} width={item.width} />
-              </figure>
-            ))}
-          </div>
-        </div>
+        ))}
       </div>
     </>
   );
