@@ -1,11 +1,13 @@
 import '../styles/globals.scss';
 
-import { Component, FC, useEffect } from 'react';
+import { AppProps } from 'next/app';
+import { FC, useEffect } from 'react';
 
-const MyApp: FC<{ Component: typeof Component; pageProps: any }> = ({ Component, pageProps }) => {
+const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
   useEffect(() => {
     import('tw-elements');
   }, []);
+
   return <Component {...pageProps} />;
 };
 

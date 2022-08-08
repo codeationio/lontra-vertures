@@ -1,6 +1,7 @@
 const Navbar = () => {
   return (
-    <nav className=" navbar navbar-expand-lg navbar-light relative flex flex-wrap items-center justify-end bg-gray-100 py-4 text-gray-500 shadow-lg hover:text-gray-700 focus:text-gray-700">
+    // eslint-disable-next-line prettier/prettier
+    <nav className="navbar navbar-light navbar-expand-lg relative flex flex-wrap items-center justify-end bg-gray-100 py-4 text-gray-500 shadow-lg hover:text-gray-700 focus:text-gray-700">
       <div className="container-fluid flex flex-wrap items-center justify-between px-6">
         <button
           aria-controls="navbarSupportedContent"
