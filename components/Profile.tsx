@@ -34,7 +34,7 @@ const Profile: FC<Props> = ({
       <div className="mt-20 flex flex-col items-center">
         <Image alt={imageUrl} height={200} src={imageUrl} width={170} />
         <div className="flex flex-col items-center">
-          <a className="font-extralight text-[#ED5829]" href={siteUrl}>
+          <a className="font-extralight text-primary" href={siteUrl}>
             {siteName}
           </a>
           <Link href={linkedinUrl}>

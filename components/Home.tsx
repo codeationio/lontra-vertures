@@ -18,7 +18,7 @@ const Home = () => {
             </div>
           </div>
           <div className="mt-20 flex flex-col justify-end md:m-0 md:items-baseline ">
-            <h1 className="mb-2 text-2xl text-[#ED5829] md:text-3xl ">Our Approach</h1>
+            <h1 className="mb-2 text-2xl text-primary md:text-3xl ">Our Approach</h1>
             <p className="text-lg font-light text-[#333333] md:text-lg ">
               Embrace the long game. <br />
               High conviction, collaboration and bold ambitions drive success. <br />

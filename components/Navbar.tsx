@@ -1,14 +1,30 @@
-const Navbar = () => {
+import Link from 'next/link';
+
+const NavItem = ({ href, title }) => {
+  return (
+    <li className="nav-item p-2">
+      <Link href={href}>
+        <a className="nav-link p-0 text-gray-500 hover:text-primary focus:text-primary">{title}</a>
+      </Link>
+    </li>
+  );
+};
+
+const Navbar = ({ logo = true }) => {
   return (
     // eslint-disable-next-line prettier/prettier
-    <nav className="navbar navbar-expand-lg navbar-light relative flex flex-wrap items-center justify-between bg-gray-100/50 py-4 text-gray-500 shadow-lg hover:text-gray-700 focus:text-gray-700">
-      <a href="/">
-        <figure className="ml-10 flex cursor-pointer items-center">
-          <img alt="" className="h-8" loading="lazy" src="/images/lontra-ventures-logo.png" />
-          <h1 className="ml-3 font-serif text-xl font-light md:text-2xl  ">Lontra Ventures</h1>
-        </figure>
-      </a>
-      <div className="container-fluid flex flex-wrap items-center justify-between px-6">
+    <nav className="navbar navbar-light navbar-expand-lg relative flex flex-wrap items-center justify-between bg-gray-100/50 py-4 text-gray-500 shadow-lg hover:text-primary focus:text-primary">
+      {logo && (
+        <Link href="/">
+          <a>
+            <figure className="ml-10 flex cursor-pointer items-center">
+              <img alt="" className="h-8" loading="lazy" src="/images/lontra-ventures-logo.png" />
+              <h1 className="ml-3 font-serif text-xl font-light md:text-2xl  ">Lontra Ventures</h1>
+            </figure>
+          </a>
+        </Link>
+      )}
+      <div className="container-fluid ml-auto flex flex-wrap items-center justify-between px-6">
         <button
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
@@ -33,26 +49,10 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
           <ul className="list-style-none navbar-nav mr-auto flex flex-col pl-0">
-            <li className="nav-item p-2">
-              <a className="nav-link p-0 text-gray-500 hover:text-gray-700 focus:text-gray-700" href="/">
-                Home
-              </a>
-            </li>
-            <li className="nav-item p-2">
-              <a className="nav-link p-0 text-gray-500 hover:text-gray-700 focus:text-gray-700" href="Portfolio">
-                Portfolio
-              </a>
-            </li>
-            <li className="nav-item p-2">
-              <a className="nav-link p-0 text-gray-500 hover:text-gray-700 focus:text-gray-700" href="Technology">
-                Technology
-              </a>
-            </li>
-            <li className="nav-item p-2">
-              <a className="nav-link p-0 text-gray-500 hover:text-gray-700 focus:text-gray-700" href="LifeScience">
-                Life Science
-              </a>
-            </li>
+            <NavItem href="/" title="Home" />
+            <NavItem href="/Portfolio" title="Portfolio" />
+            <NavItem href="/Technology" title="Technology" />
+            <NavItem href="/LifeScience" title="Life Science" />
           </ul>
         </div>
       </div>
