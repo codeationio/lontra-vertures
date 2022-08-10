@@ -1,7 +1,6 @@
-import Link from 'next/link';
-
 const Navbar = () => {
   return (
+    // eslint-disable-next-line prettier/prettier
     <nav className="navbar navbar-expand-lg navbar-light relative flex flex-wrap items-center justify-between bg-gray-100/50 py-4 text-gray-500 shadow-lg hover:text-gray-700 focus:text-gray-700">
       <a href="/">
         <figure className="ml-10 flex cursor-pointer items-center">
