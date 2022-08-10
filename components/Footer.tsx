@@ -12,7 +12,7 @@ const Footer = () => {
             <Image alt="twitter" height={25} src="/images/twitter.svg" width={30} />
           </figure>
         </span>
-        <a href="https://www.lontraventures.com/">© 2023 by Lontra Ventures.</a>
+        <a href="https://www.lontraventures.com/">© {new Date().getFullYear()} by Lontra Ventures.</a>
       </div>
     </footer>
   );
