@@ -16,7 +16,7 @@ const Software = [
   { logo: [{ href: 'https://www.onemodel.co/', url: '/images/oneModel-logo.png', width: 150 }] },
   { logo: [{ href: 'https://www.reactivesearch.io/', url: '/images/reactive-search-logo.png', width: 200 }] },
   { logo: [{ href: 'https://rackn.com/', url: '/images/RackN-Logo.png', width: 200 }] },
-  { logo: [{ href: 'https://desktop.returnsafe.com/', url: '/images/Returnsafe_Logo.png', width: 200 }] },
+  { logo: [{ href: 'https://www.returnsafe.com/', url: '/images/Returnsafe_Logo.png', width: 200 }] },
   { logo: [{ href: 'https://stoplight.io/', url: '/images/stoplight.png', width: 200 }] },
   { logo: [{ href: 'https://voltrondata.com/', url: '/images/voltron-logo.svg', width: 300 }] },
 ];
@@ -35,8 +35,8 @@ const Crypto = [
 const Emerging = [
   { logo: [{ href: 'https://www.crowdout.com/', url: '/images/crowdout_logo.png', width: 90 }] },
   { logo: [{ href: 'https://www.dignifi.com/', url: '/images/dignifi-logo.png', width: 170 }] },
-  { logo: [{ href: '', url: '/images/five_five-logo.png', width: 100 }] },
-  { logo: [{ href: '', url: '/images/gxc-logo.jpg', width: 80 }] },
+  { logo: [{ href: ' https://join5x5.com/', url: '/images/five_five-logo.png', width: 100 }] },
+  { logo: [{ href: 'https://gxc.io/', url: '/images/gxc-logo.jpg', width: 80 }] },
   { logo: [{ href: 'https://www.orbitfab.com/', url: '/images/orbitfab-logo.png', width: 150 }] },
   { logo: [{ href: 'https://www.toucan.events/', url: '/images/toucan-logo.png', width: 150 }] },
 ];
@@ -45,7 +45,7 @@ const Healthcare = [
   { logo: [{ href: 'https://docstation.co/', url: '/images/docstation_logo.png', width: 170 }] },
   { logo: [{ href: '', url: '/images/frontrow-logo.png', width: 130 }] },
   { logo: [{ href: 'https://joshin.com/', url: '/images/joshin-logo.png', width: 150 }] },
-  { logo: [{ href: 'http://www.ostiio.com/', url: '/images/Ostiio_logo.png', width: 200 }] },
+  { logo: [{ href: 'https://ostiio.com/', url: '/images/Ostiio_logo.png', width: 200 }] },
   { logo: [{ href: 'https://www.subjectwell.com/', url: '/images/subjectwell-logo.png', width: 200 }] },
   { logo: [{ href: 'https://www.vitalflohealth.com/', url: '/images/vital-flo-logo.png', width: 150 }] },
 ];
@@ -59,8 +59,8 @@ const Exits = [
   },
   {
     logo: [
-      { href: 'https://docs.vmware.com/', url: '/images/bitfusion-logo.png', width: 150 },
-      { href: 'https://docs.vmware.com/', url: '/images/VMWare-logo.png', width: 150 },
+      { href: 'https://www.vmware.com/', url: '/images/bitfusion-logo.png', width: 150 },
+      { href: 'https://www.vmware.com/', url: '/images/VMWare-logo.png', width: 150 },
     ],
   },
   {

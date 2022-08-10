@@ -1,10 +1,14 @@
+import Link from 'next/link';
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light relative flex flex-wrap items-center justify-between bg-gray-100/50 py-4 text-gray-500 shadow-lg hover:text-gray-700 focus:text-gray-700">
-      <figure className="ml-10 flex items-center">
-        <img alt="" className="h-10" loading="lazy" src="/images/lontra-ventures-logo.png" />
-        <h1 className="ml-5 font-serif text-xl font-light md:text-2xl  ">Lontra Ventures</h1>
-      </figure>
+      <a href="/">
+        <figure className="ml-10 flex cursor-pointer items-center">
+          <img alt="" className="h-8" loading="lazy" src="/images/lontra-ventures-logo.png" />
+          <h1 className="ml-3 font-serif text-xl font-light md:text-2xl  ">Lontra Ventures</h1>
+        </figure>
+      </a>
       <div className="container-fluid flex flex-wrap items-center justify-between px-6">
         <button
           aria-controls="navbarSupportedContent"
