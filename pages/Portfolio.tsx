@@ -118,7 +118,7 @@ const Portfolio = () => {
                   <figure className="bg-blur flex min-h-[80px] w-full cursor-pointer flex-col items-center justify-center !space-y-4">
                     {item.logo.map((logo) => (
                       <Link key={index} href={logo.href}>
-                        <Image alt="" height={50} src={logo.url} width={logo.width} />
+                        <Image alt={logo.href} height={50} src={logo.url} width={logo.width} />
                       </Link>
                     ))}
                   </figure>
