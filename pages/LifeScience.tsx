@@ -10,7 +10,7 @@ const data = [
       'Prior to founding Lontra Ventures in 2008, Walter Kalmans was Vice President, Business Development for Oncology Therapeutics Network (OTN), a subsidiary of McKesson Corporation. During his tenure at OTN, Walter was responsible for OTN’s relationships with manufacturers and for delivering value-added services that helped manufacturers sell more product. Prior to joining OTN, Walter held senior commercial positions with Vignette, a software company, and Becton Dickinson & Company. Earlier in his career, he was a healthcare management consultant for several top firms, including Quintiles, Booz-Allen & Hamilton and Accenture.',
     description4:
       'Walter earned a Bachelor of Science in Finance from the Wharton School and a Bachelor of Arts in Molecular Biology from the College of Arts & Sciences, both at the University of Pennsylvania. He holds a Masters in Business Administration from the Fuqua School of Business at Duke University where he graduated as a JB Fuqua Scholar.',
-    designation: 'Founder, President',
+    designation: 'Founder',
     heading: 'Life Sciences',
     imageUrl: '/images/Walter-Hexagon.png',
     linkedinUrl: 'https://www.linkedin.com/in/wkalmans/',
