@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Home = () => {
   return (
-    <div className="m-0 h-[calc(100vh_-_7.5rem)] bg-[url('/images/home-background-img.png')] bg-cover">
+    <div className="m-0 h-[calc(100vh_-_7.5rem)] bg-[url('public/images/LontraVentures_home-Page.png')] bg-cover">
       <div className="flex h-full w-full flex-col items-center justify-around p-10 md:flex-row md:items-stretch md:justify-between">
         <div className="md:grid">
           <div className="flex flex-row  items-start ">
