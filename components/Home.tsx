@@ -7,7 +7,7 @@ const Home = () => {
         <div className="md:grid">
           <div className="flex flex-row  items-start ">
             <figure className="webImage">
-              <Image alt="lontra-ventures-logo" height={100} src="/images/lontra-ventures-logo.png" width={105} />
+              <Image alt="lontra-ventures-logo" height={100} src="Lontra_ventures-FULL_Blue.png" width={105} />
             </figure>
             <figure className="md:hidden">
               <Image alt="lontra-ventures-logo" height={50} src="/images/lontra-ventures-logo.png" width={50} />
