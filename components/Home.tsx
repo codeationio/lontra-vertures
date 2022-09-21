@@ -14,7 +14,7 @@ const Home = () => {
             </figure>
             <div className="ml-5">
               <h1 className="font-serif text-xl font-light md:text-7xl  ">Lontra Ventures</h1>
-              <h3 className="text-xs font-light tracking-widest text-[#333333] md:text-xl capitalize">Tomorrow delivered today</h3>
+              <h3 className="text-xs font-light capitalize tracking-widest text-[#333333] md:text-xl">Tomorrow delivered today</h3>
             </div>
           </div>
           <div className="mt-20 flex flex-col justify-end md:m-0 md:items-baseline ">
