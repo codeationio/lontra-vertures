@@ -13,7 +13,7 @@ const Home = () => {
               <Image alt="lontra-ventures-logo" height={50} src="/images/lontra-ventures-logo.png" width={50} />
             </figure>
             <div className="ml-5">
-              <h1 className="font-serif text-xl font-light md:text-7xl  ">Lontra ventures</h1>
+              <h1 className="font-serif text-xl font-light md:text-7xl  ">Lontra Ventures</h1>
               <h3 className="text-xs font-light capitalize tracking-widest text-[#333333] md:text-xl">Tomorrow delivered today</h3>
             </div>
           </div>
