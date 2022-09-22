@@ -108,7 +108,7 @@ const portfolio = [
 const Portfolio = () => {
   return (
     <>
-      <div className="shaded bg-[url('/images/profile-background.jpg')] bg-contain">
+      <div className="shaded">
         {portfolio.map((item) => (
           <div key={item.title} className="flex flex-wrap justify-center pt-20">
             <header className="mb-10 w-fit text-5xl">{item.title}</header>

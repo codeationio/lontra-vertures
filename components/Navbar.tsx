@@ -1,10 +1,15 @@
+import Image from 'next/future/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const NavItem = ({ href, title }) => {
+  const router = useRouter();
+  const isHome = router.pathname === '/';
+
   return (
     <li className="nav-item p-2">
       <Link href={href}>
-        <a className="nav-link p-0 text-gray-500 hover:text-primary focus:text-primary">{title}</a>
+        <a className={`nav-link p-0 ${isHome ? 'text-white' : 'text-gray-500'} hover:text-primary focus:text-primary`}>{title}</a>
       </Link>
     </li>
   );
@@ -13,17 +18,25 @@ const NavItem = ({ href, title }) => {
 const Navbar = ({ logo = true }) => {
   return (
     // eslint-disable-next-line prettier/prettier
-    <nav className="navbar navbar-light navbar-expand-lg relative flex flex-wrap items-center justify-between bg-gray-100/50 py-4 text-gray-500 shadow-lg hover:text-primary focus:text-primary">
+    <nav className="navbar navbar-light navbar-expand-lg relative flex flex-wrap items-center justify-between hover:text-primary focus:text-primary">
       {logo && (
         <Link href="/">
           <a>
             <figure className="ml-10 flex cursor-pointer items-center">
-              <img alt="" className="h-8" loading="lazy" src="/images/lontra-ventures-logo.png" />
-              <h1 className="ml-3 font-serif text-xl font-light md:text-2xl  ">Lontra Ventures</h1>
+              <Image
+                alt="Lontra ventures blue logo"
+                className="h-10 m-4"
+                height={100}
+                loading="lazy"
+                src="/images/lontra-full-blue.png"
+                width={200}
+              />
+              {/* <h1 className="ml-3 font-serif text-xl font-light md:text-2xl  ">Lontra Ventures</h1> */}
             </figure>
           </a>
         </Link>
       )}
+      {!logo && <div className="h-[72px] w-[272px]" />}
       <div className="container-fluid ml-auto flex flex-wrap items-center justify-between px-6">
         <button
           aria-controls="navbarSupportedContent"

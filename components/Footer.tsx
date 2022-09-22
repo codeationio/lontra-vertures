@@ -21,7 +21,9 @@ const Footer = () => {
             </a>
           </Link>
         </span>
-        <a href="https://www.lontraventures.com/">© {new Date().getFullYear()} by Lontra Ventures.</a>
+        <a className="text-white" href="https://www.lontraventures.com/">
+          © {new Date().getFullYear()} by Lontra Ventures.
+        </a>
       </div>
     </footer>
   );
