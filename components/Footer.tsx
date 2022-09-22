@@ -1,7 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const Footer = () => {
+  const router = useRouter();
+  const isHome = router.pathname === '/';
   return (
     <footer className="flex justify-center py-2">
       <div className="flex items-center gap-x-2">
@@ -21,7 +24,7 @@ const Footer = () => {
             </a>
           </Link>
         </span>
-        <a className="text-white" href="https://www.lontraventures.com/">
+        <a className={isHome ? 'text-white' : 'text-gray-500'} href="https://www.lontraventures.com/">
           © {new Date().getFullYear()} by Lontra Ventures.
         </a>
       </div>

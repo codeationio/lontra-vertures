@@ -16,7 +16,7 @@ const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
 
   return (
     <div
-      className="h-screen min-h-screen bg-cover bg-no-repeat"
+      className="flex max-h-screen min-h-screen flex-col bg-cover bg-no-repeat"
       style={{
         backgroundImage: router.pathname === '/' ? 'url(/images/lontra-full-homepage.png)' : 'url(/images/lontra-mini-white.png)',
       }}>
@@ -25,7 +25,9 @@ const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
         <link href="/favicon.ico" rel="icon" />
       </Head>
       <Navbar logo={router.pathname !== '/'} />
-      <Component {...pageProps} />
+      <div className="flex-grow">
+        <Component {...pageProps} />
+      </div>
       <Footer />
     </div>
   );

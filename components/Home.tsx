@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Home = () => {
   return (
-    <div className="m-0 h-[calc(100vh_-_7.5rem)] bg-cover">
+    <div>
       <div className="flex h-full w-full flex-col items-center justify-around p-10 md:flex-row md:items-stretch md:justify-between">
         <div className="md:grid">
           <div className="flex flex-row  items-start ">
