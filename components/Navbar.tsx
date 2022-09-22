@@ -1,4 +1,4 @@
-import Image from 'next/future/image';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
@@ -25,7 +25,7 @@ const Navbar = ({ logo = true }) => {
             <figure className="ml-10 flex cursor-pointer items-center">
               <Image
                 alt="Lontra ventures blue logo"
-                className="h-10 m-4"
+                className="m-4 h-10"
                 height={100}
                 loading="lazy"
                 src="/images/lontra-full-blue.png"

@@ -16,7 +16,7 @@ const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
 
   return (
     <div
-      className="min-h-screen bg-no-repeat bg-cover h-screen"
+      className="h-screen min-h-screen bg-cover bg-no-repeat"
       style={{
         backgroundImage: router.pathname === '/' ? 'url(/images/lontra-full-homepage.png)' : 'url(/images/lontra-mini-white.png)',
       }}>
