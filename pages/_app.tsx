@@ -25,7 +25,7 @@ const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
         <link href="/favicon.ico" rel="icon" />
       </Head>
       <Navbar logo={router.pathname !== '/'} />
-      <div className="flex-grow">
+      <div className="flex flex-grow flex-col">
         <Component {...pageProps} />
       </div>
       <Footer />
