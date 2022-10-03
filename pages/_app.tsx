@@ -9,22 +9,30 @@ import { FC, useEffect } from 'react';
 
 const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
   const router = useRouter();
-  console.log('🚀 ~ file: _app.tsx ~ line 12 ~ router', router, router.pathname);
+
   useEffect(() => {
     import('tw-elements');
   }, []);
 
+  const bgStyle = {
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+  };
+
+  if (router.pathname === '/') {
+    bgStyle['backgroundImage'] = 'url(/images/lontra-full-homepage.png)';
+  } else if (!router.pathname.toLowerCase().includes('portfolio')) {
+    bgStyle['backgroundImage'] = 'url(/images/lontra-mini-white.png)';
+  }
+
   return (
-    <div
-      className="flex max-h-screen min-h-screen flex-col bg-cover bg-no-repeat"
-      style={{
-        backgroundImage: router.pathname === '/' ? 'url(/images/lontra-full-homepage.png)' : 'url(/images/lontra-mini-white.png)',
-      }}>
+    <div className="flex max-h-screen min-h-screen flex-col bg-cover bg-no-repeat" style={bgStyle}>
       <Head>
         <title>Lontra Ventures</title>
         <link href="/favicon.ico" rel="icon" />
       </Head>
-      <Navbar logo={router.pathname !== '/'} />
+      <Navbar type={router.pathname !== '/' ? 'blue' : 'white'} />
       <div className="flex flex-grow flex-col">
         <Component {...pageProps} />
       </div>
