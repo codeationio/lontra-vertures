@@ -15,28 +15,26 @@ const NavItem = ({ href, title }) => {
   );
 };
 
-const Navbar = ({ logo = true, type = 'blue' }) => {
+const Navbar = ({ type = 'blue' }) => {
   return (
     // eslint-disable-next-line prettier/prettier
     <nav className="navbar navbar-expand-lg navbar-light relative flex flex-wrap items-center justify-between hover:text-primary focus:text-primary">
-      {logo && (
-        <Link href="/">
-          <a>
-            <figure className="m-4 ml-10 flex cursor-pointer items-center">
-              <Image
-                alt="Lontra ventures blue logo"
-                className="m-4 h-10"
-                height={72}
-                loading="lazy"
-                src={type === 'blue' ? '/images/lontra-full-blue.png' : `/images/lontra-full-white.png`}
-                width={350}
-              />
-            </figure>
-          </a>
-        </Link>
-      )}
+      <Link href="/">
+        <a>
+          <figure className="m-4 ml-10 flex cursor-pointer items-center">
+            <Image
+              alt="Lontra ventures blue logo"
+              className="m-4 h-10"
+              height={72}
+              loading="eager"
+              objectFit="contain"
+              src={type === 'blue' ? '/images/lontra-full-blue.png' : `/images/lontra-full-white.png`}
+              width={350}
+            />
+          </figure>
+        </a>
+      </Link>
 
-      {!logo && <div className="m-4 ml-10 h-[72px] w-[350px]" />}
       <div className="container-fluid ml-auto flex flex-wrap items-center justify-between px-6">
         <button
           aria-controls="navbarSupportedContent"
