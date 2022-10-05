@@ -32,7 +32,7 @@ const Profile: FC<Props> = ({
   return (
     <div className="flex flex-col justify-center md:flex-row md:gap-x-10">
       <div className="mt-20 flex flex-col items-center">
-        <Image alt={imageUrl} height={200} src={imageUrl} width={170} />
+        <Image alt={imageUrl} className="overflow-hidden rounded-lg border" height={200} src={imageUrl} width={170} />
         <div className="flex flex-col items-center">
           <a className="font-extralight text-primary" href={siteUrl}>
             {siteName}

@@ -11,14 +11,24 @@ const Security = [
 const Software = [
   { logo: [{ href: 'https://www.2048.vc/', url: '/images/2048-ventures-logo.png', width: 100 }] },
   { logo: [{ href: 'https://www.airtory.com/', url: '/images/airtory-logo.png', width: 100 }] },
-  { logo: [{ href: 'https://www.molecula.com/', url: '/images/Molecula-logo.png', width: 200 }] },
+  {
+    logo: [
+      {
+        href: 'https://www.featurebase.com/',
+        url: '/images/featurebase-logo.png',
+        width: 200,
+      },
+    ],
+  },
   { logo: [{ href: 'https://niftory.com/', url: '/images/niftory-logo.png', width: 200 }] },
   { logo: [{ href: 'https://www.onemodel.co/', url: '/images/oneModel-logo.png', width: 150 }] },
   { logo: [{ href: 'https://www.reactivesearch.io/', url: '/images/reactive-search-logo.png', width: 200 }] },
   { logo: [{ href: 'https://rackn.com/', url: '/images/RackN-Logo.png', width: 200 }] },
-  { logo: [{ href: 'https://www.returnsafe.com/', url: '/images/Returnsafe_Logo.png', width: 200 }] },
   { logo: [{ href: 'https://stoplight.io/', url: '/images/stoplight.png', width: 200 }] },
   { logo: [{ href: 'https://voltrondata.com/', url: '/images/voltron-logo.svg', width: 300 }] },
+  {
+    logo: [{ href: 'https://www.workeq.com/', url: '/images/work-eq.jpeg', width: 200 }],
+  },
 ];
 
 const Crypto = [
@@ -39,6 +49,15 @@ const Emerging = [
   { logo: [{ href: 'https://gxc.io/', url: '/images/gxc-logo.jpg', width: 80 }] },
   { logo: [{ href: 'https://www.orbitfab.com/', url: '/images/orbitfab-logo.png', width: 150 }] },
   { logo: [{ href: 'https://www.toucan.events/', url: '/images/toucan-logo.png', width: 150 }] },
+  {
+    logo: [
+      {
+        href: 'https://www.shinkei.systems/',
+        url: '/images/shinkei-systems.jpeg',
+        width: 150,
+      },
+    ],
+  },
 ];
 
 const Healthcare = [
