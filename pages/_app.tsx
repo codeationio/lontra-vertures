@@ -14,14 +14,28 @@ const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
     import('tw-elements');
   }, []);
 
+  const bgStyle = {
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+  };
+
+  if (router.pathname === '/') {
+    bgStyle['backgroundImage'] = 'url(/images/lontra-full-homepage.png)';
+  } else if (!router.pathname.toLowerCase().includes('portfolio')) {
+    bgStyle['backgroundImage'] = 'url(/images/lontra-mini-white.png)';
+  }
+
   return (
-    <div className="min-h-screen">
+    <div className="flex max-h-screen min-h-screen flex-col bg-cover bg-no-repeat" style={bgStyle}>
       <Head>
         <title>Lontra Ventures</title>
         <link href="/favicon.ico" rel="icon" />
       </Head>
-      <Navbar logo={router.pathname !== '/'} />
-      <Component {...pageProps} />
+      <Navbar type={router.pathname !== '/' ? 'blue' : 'white'} />
+      <div className="flex flex-grow flex-col">
+        <Component {...pageProps} />
+      </div>
       <Footer />
     </div>
   );

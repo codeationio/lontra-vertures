@@ -1,6 +1,13 @@
+// import helvetica font
+@import url('/fonts/helvetica.otf');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+   @apply font-helvetica;
+}
 
 
 @media screen and (max-width: 768px) {

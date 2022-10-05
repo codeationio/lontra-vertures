@@ -9,5 +9,8 @@ module.exports = {
         primary: '#ED5829',
       },
     },
+    fontFamily: {
+      helvetica: ['Helvetica', 'Inter', 'sans-serif'],
+    },
   },
 };

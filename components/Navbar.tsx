@@ -1,29 +1,40 @@
+import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const NavItem = ({ href, title }) => {
+  const router = useRouter();
+  const isHome = router.pathname === '/';
+
   return (
     <li className="nav-item p-2">
       <Link href={href}>
-        <a className="nav-link p-0 text-gray-500 hover:text-primary focus:text-primary">{title}</a>
+        <a className={`nav-link p-0 ${isHome ? 'text-white' : 'text-gray-500'} hover:text-primary focus:text-primary`}>{title}</a>
       </Link>
     </li>
   );
 };
 
-const Navbar = ({ logo = true }) => {
+const Navbar = ({ type = 'blue' }) => {
   return (
     // eslint-disable-next-line prettier/prettier
-    <nav className="navbar navbar-light navbar-expand-lg relative flex flex-wrap items-center justify-between bg-gray-100/50 py-4 text-gray-500 shadow-lg hover:text-primary focus:text-primary">
-      {logo && (
-        <Link href="/">
-          <a>
-            <figure className="ml-10 flex cursor-pointer items-center">
-              <img alt="" className="h-8" loading="lazy" src="/images/lontra-ventures-logo.png" />
-              <h1 className="ml-3 font-serif text-xl font-light md:text-2xl  ">Lontra Ventures</h1>
-            </figure>
-          </a>
-        </Link>
-      )}
+    <nav className="navbar navbar-expand-lg navbar-light relative flex flex-wrap items-center justify-between hover:text-primary focus:text-primary">
+      <Link href="/">
+        <a>
+          <figure className="m-4 ml-10 flex cursor-pointer items-center">
+            <Image
+              alt="Lontra ventures blue logo"
+              className="m-4 h-10"
+              height={72}
+              loading="eager"
+              objectFit="contain"
+              src={type === 'blue' ? '/images/lontra-full-blue.png' : `/images/lontra-full-white.png`}
+              width={350}
+            />
+          </figure>
+        </a>
+      </Link>
+
       <div className="container-fluid ml-auto flex flex-wrap items-center justify-between px-6">
         <button
           aria-controls="navbarSupportedContent"

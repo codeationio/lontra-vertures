@@ -12,7 +12,7 @@ const data = [
       'Walter earned a Bachelor of Science in Finance from the Wharton School and a Bachelor of Arts in Molecular Biology from the College of Arts & Sciences, both at the University of Pennsylvania. He holds a Masters in Business Administration from the Fuqua School of Business at Duke University where he graduated as a JB Fuqua Scholar.',
     designation: 'Founder',
     heading: 'Life Sciences',
-    imageUrl: '/images/Walter-Hexagon.png',
+    imageUrl: '/images/walter-portrait.jpeg',
     linkedinUrl: 'https://www.linkedin.com/in/wkalmans/',
     name: 'Walter C Kalmans',
     siteName: 'wkalmans@lontraventures.com',
