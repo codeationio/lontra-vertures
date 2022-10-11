@@ -27,7 +27,7 @@ const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
   }
 
   return (
-    <div className="flex max-h-screen min-h-screen flex-col bg-cover bg-no-repeat" style={bgStyle}>
+    <div className="flex h-max min-h-screen flex-col bg-cover bg-no-repeat" style={bgStyle}>
       <Head>
         <title>Lontra Ventures</title>
         <link href="/favicon.ico" rel="icon" />

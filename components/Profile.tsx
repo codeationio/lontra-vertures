@@ -32,7 +32,7 @@ const Profile: FC<Props> = ({
   return (
     <div className="flex flex-col justify-center md:flex-row md:gap-x-10">
       <div className="mt-20 flex flex-col items-center">
-        <Image alt={imageUrl} className="overflow-hidden rounded-lg border" height={200} src={imageUrl} width={170} />
+        <Image alt={imageUrl} className="overflow-hidden rounded-lg border shadow" height={200} src={imageUrl} width={170} />
         <div className="flex flex-col items-center">
           <a className="font-extralight text-primary" href={siteUrl}>
             {siteName}
@@ -44,9 +44,9 @@ const Profile: FC<Props> = ({
           </Link>
         </div>
       </div>
-      <div className="mt-20 flex flex-col items-center md:items-start">
+      <div className="m-20 mx-10 flex flex-col">
         <div className="mb-10 ">
-          <h1 className="mb-4 text-4xl font-light md:text-6xl">{heading}</h1>
+          <h1 className="mb-4 text-2xl font-light md:text-6xl">{heading}</h1>
           <h2 className="font-light  md:text-2xl">{name} </h2>
           <h2 className="font-light md:text-2xl">{designation} </h2>
         </div>
