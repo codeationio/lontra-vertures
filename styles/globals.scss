@@ -31,7 +31,7 @@
       z-index: 2;
    }
    figure {
-      @apply backdrop-blur-sm shadow bg-slate-400/20   rounded m-4 p-4;
+      @apply backdrop-blur-sm shadow bg-slate-400/20 rounded m-4 p-0;
    }
 }
 

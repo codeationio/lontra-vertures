@@ -35,7 +35,7 @@ const Crypto = [
   { logo: [{ href: 'https://www.dcspark.io/', url: '/images/dcSpark-logo.png', width: 150 }] },
   { logo: [{ href: 'https://www.helium.com/', url: '/images/helium-logo.png', width: 150 }] },
   { logo: [{ href: 'https://www.milkomeda.com/', url: '/images/milkomeda-logo.png', width: 200 }] },
-  { logo: [{ href: 'https://multicoin.capital/', url: '/images/multicoin-capital.svg', width: 200 }] },
+  { logo: [{ href: 'https://multicoin.capital/', url: '/images/multicoin-capital-new.webp', width: 150 }] },
   { logo: [{ href: 'https://picante.io/', url: '/images/picante-logo.png', width: 200 }] },
   { logo: [{ href: 'https://quai.network/', url: '/images/quai.png', width: 180 }] },
   { logo: [{ href: 'https://ten31.vc/home', url: '/images/ten31-logo.png', width: 100 }] },
@@ -138,7 +138,7 @@ const Portfolio = () => {
                     {item.logo.map((logo, i) => (
                       <Link key={i} href={logo.href ?? '#'}>
                         <a>
-                          <Image alt={logo.href} height={50} src={logo.url} width={logo.width} />
+                          <Image alt={logo.href} height={120} objectFit="scale-down" src={logo.url} width={logo.width} />
                         </a>
                       </Link>
                     ))}
