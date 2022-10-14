@@ -46,11 +46,11 @@ const Profile: FC<Props> = ({
       </div>
       <div className="m-20 mx-10 flex flex-col">
         <div className="mb-10 ">
-          <h1 className="mb-4 text-2xl font-light md:text-6xl">{heading}</h1>
-          <h2 className="font-light  md:text-2xl">{name} </h2>
-          <h2 className="font-light md:text-2xl">{designation} </h2>
+          <h1 className="mb-4 text-2xl font-light text-blue-900 md:text-6xl">{heading}</h1>
+          <h2 className="font-light  text-primary md:text-2xl">{name} </h2>
+          <h2 className="font-light text-primary md:text-2xl">{designation} </h2>
         </div>
-        <div className="max-w-xs font-extralight md:max-w-md">
+        <div className="max-w-xs font-extralight md:max-w-3xl">
           <p className="mb-4">{description1}</p>
           <p className="mb-4">{description2}</p>
           <p className="mb-4">{description3}</p>
