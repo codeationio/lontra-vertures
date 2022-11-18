@@ -409,16 +409,16 @@ const portfolio: {
     title: 'Software',
   },
   {
-    items: Crypto,
-    title: 'Digital Assets',
+    items: Healthcare,
+    title: 'Healthcare',
   },
   {
     items: Emerging,
     title: 'Emerging',
   },
   {
-    items: Healthcare,
-    title: 'Healthcare',
+    items: Crypto,
+    title: 'Digital Assets',
   },
   {
     items: Exits,
