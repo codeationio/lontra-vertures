@@ -144,15 +144,6 @@ const Crypto = [
   {
     logo: [
       {
-        href: 'https://www.helium.com/',
-        url: '/images/helium-logo.png',
-        width: 150,
-      },
-    ],
-  },
-  {
-    logo: [
-      {
         href: 'https://www.milkomeda.com/',
         url: '/images/milkomeda-logo.png',
         width: 250,
@@ -163,7 +154,7 @@ const Crypto = [
     logo: [
       {
         href: 'https://multicoin.capital/',
-        url: '/images/multicoin-capital-new.webp',
+        url: '/images/multi-coin-logo.jpeg',
         width: 150,
       },
     ],
@@ -438,17 +429,24 @@ const Portfolio = () => {
                 <div key={index} className={`flex items-center justify-center rounded ` + item.className ?? ''}>
                   <figure className="bg-blur flex min-h-[80px] w-full cursor-pointer flex-col items-center justify-center !space-y-4">
                     {item.logo.map((logo, i) => (
-                      <Link key={i} href={logo.href ?? '#'}>
-                        <a>
-                          <Image
-                            alt={logo.href}
-                            height={item.logo.length > 1 ? 100 : 140}
-                            objectFit="contain"
-                            src={logo.url}
-                            width={logo.width}
-                          />
-                        </a>
-                      </Link>
+                      <>
+                        {i > 0 && (
+                          <p className="text-4xl capitalize text-primary">
+                            <span>&darr;</span>
+                          </p>
+                        )}
+                        <Link key={i} href={logo.href ?? '#'}>
+                          <a>
+                            <Image
+                              alt={logo.href}
+                              height={item.logo.length > 1 ? 80 : 140}
+                              objectFit="contain"
+                              src={logo.url}
+                              width={logo.width}
+                            />
+                          </a>
+                        </Link>
+                      </>
                     ))}
                   </figure>
                 </div>
