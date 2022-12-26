@@ -144,6 +144,15 @@ const Crypto = [
   {
     logo: [
       {
+        href: 'https://karrier.one/',
+        url: '/images/karrierone-logo.png',
+        width: 250,
+      },
+    ],
+  },
+  {
+    logo: [
+      {
         href: 'https://www.milkomeda.com/',
         url: '/images/milkomeda-logo.png',
         width: 250,
