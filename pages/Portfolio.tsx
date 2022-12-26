@@ -142,6 +142,7 @@ const Crypto = [
     ],
   },
   {
+    className: 'bg-primary',
     logo: [
       {
         href: 'https://karrier.one/',
