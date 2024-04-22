@@ -194,7 +194,7 @@ export const DigitalAssets: Company[] = [
     logo: [
       {
         href: 'https://www.truetribe.xyz/',
-        url: '/images/True Tribe Blue.png',
+        url: '/images/True-Tribe-Blue.png',
         width: 250,
       },
     ],
