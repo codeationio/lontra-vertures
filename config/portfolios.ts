@@ -153,15 +153,6 @@ export const DigitalAssets: Company[] = [
   {
     logo: [
       {
-        href: 'https://www.milkomeda.com/',
-        url: '/images/milkomeda-logo.png',
-        width: 250,
-      },
-    ],
-  },
-  {
-    logo: [
-      {
         href: 'https://multicoin.capital/',
         url: '/images/multi-coin-logo.jpeg',
         width: 150,
@@ -169,23 +160,31 @@ export const DigitalAssets: Company[] = [
     ],
   },
   {
+    logo: [{ href: 'https://quai.network/', url: '/images/quai.png', width: 250 }],
+  },
+  {
     logo: [
       {
-        href: 'https://picante.io/',
-        url: '/images/picante-logo.png',
-        width: 200,
+        href: 'https://www.shinkai.com/',
+        url: '/images/shinkai.png',
+        width: 250,
       },
     ],
-  },
-
-  {
-    logo: [{ href: 'https://quai.network/', url: '/images/quai.png', width: 250 }],
   },
   {
     logo: [
       {
         href: 'https://ten31.vc/home',
         url: '/images/ten31-logo.png',
+        width: 150,
+      },
+    ],
+  },
+  {
+    logo: [
+      {
+        href: 'https://toposware.com/',
+        url: '/images/toposware.jpeg',
         width: 150,
       },
     ],
@@ -252,7 +251,7 @@ export const Emerging: Company[] = [
   {
     logo: [
       {
-        href: 'https://join5x5.com/',
+        href: 'https://5x5coop.com/',
         url: '/images/five_five-logo.png',
         width: 120,
       },
@@ -303,8 +302,8 @@ export const Healthcare: Company[] = [
   {
     logo: [
       {
-        href: 'https://frontrow.co.in/',
-        url: '/images/frontrow-logo.png',
+        href: 'https://www.thefrontrowhealth.com/',
+        url: '/images/frontrow-logo.svg',
         width: 200,
       },
     ],
@@ -365,21 +364,6 @@ export const Exits: Company[] = [
   {
     logo: [
       {
-        href: 'https://stoplight.io/',
-        url: '/images/Smartbear.png',
-        width: 200,
-      },
-      {
-        href: 'https://stoplight.io/',
-        url: '/images/stoplight.png',
-        width: 200,
-      },
-    ],
-  },
-
-  {
-    logo: [
-      {
         href: 'https://www.vmware.com/',
         url: '/images/bitfusion-logo.png',
         width: 150,
@@ -416,6 +400,21 @@ export const Exits: Company[] = [
       {
         href: 'https://www.mediafly.com/',
         url: '/images/MediaFly-logo.jpeg',
+        width: 200,
+      },
+    ],
+  },
+
+  {
+    logo: [
+      {
+        href: 'https://stoplight.io/',
+        url: '/images/Smartbear.png',
+        width: 200,
+      },
+      {
+        href: 'https://stoplight.io/',
+        url: '/images/stoplight.png',
         width: 200,
       },
     ],

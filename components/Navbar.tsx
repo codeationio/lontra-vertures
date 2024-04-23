@@ -61,9 +61,9 @@ const Navbar = ({ type = 'blue' }) => {
         <div className="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
           <ul className="list-style-none navbar-nav mr-auto flex flex-col pl-0">
             <NavItem href="/" title="Home" />
-            <NavItem href="/Portfolio" title="Portfolio" />
-            <NavItem href="/Technology" title="Technology" />
-            <NavItem href="/LifeScience" title="Life Science" />
+            <NavItem href="/portfolio" title="Portfolio" />
+            <NavItem href="/technology" title="Technology" />
+            <NavItem href="/lifescience" title="Life Science" />
           </ul>
         </div>
       </div>
