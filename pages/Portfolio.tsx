@@ -39,7 +39,7 @@ const Portfolio: FC<{ item: PortfolioList }> = ({ item }) => {
   return (
     <div key={item.title} className="flex flex-wrap justify-center pt-20">
       <header className="mb-10 w-fit text-5xl text-primary">{item.title}</header>
-      <div className="grid w-full grid-cols-1 p-10 md:grid-cols-2 lg:grid-cols-5 gap-5">
+      <div className="gap-5 grid w-full grid-cols-1 p-10 md:grid-cols-2 lg:grid-cols-5">
         {item.companies.map((item, index) => (
           <div key={index} className={`flex items-center justify-center rounded ` + item.className ?? ''}>
             <figure className="bg-blur flex min-h-[80px] w-full cursor-pointer flex-col items-center justify-center !space-y-4">
