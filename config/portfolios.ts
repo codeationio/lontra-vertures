@@ -242,15 +242,6 @@ export const Emerging: Company[] = [
     name: 'Allen Control Systems',
   },
   {
-    logo: [
-      {
-        href: 'https://harmonicbionics.com/',
-        url: '/images/harmonic_bionics.svg',
-        width: 150,
-      },
-    ],
-  },
-  {
     className: 'bg-primary',
     logo: [
       {
@@ -266,6 +257,15 @@ export const Emerging: Company[] = [
         href: 'https://www.crowdout.com/',
         url: '/images/crowdout_logo.png',
         width: 90,
+      },
+    ],
+  },
+  {
+    logo: [
+      {
+        href: 'https://harmonicbionics.com/',
+        url: '/images/harmonic_bionics.svg',
+        width: 150,
       },
     ],
   },
