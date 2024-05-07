@@ -15,7 +15,7 @@ const portfolio: PortfolioList[] = [
   },
   {
     companies: Software,
-    title: 'Software',
+    title: 'Software & AI',
   },
   {
     companies: Healthcare,
@@ -23,7 +23,7 @@ const portfolio: PortfolioList[] = [
   },
   {
     companies: Emerging,
-    title: 'Emerging',
+    title: 'Robotics / Space',
   },
   {
     companies: DigitalAssets,

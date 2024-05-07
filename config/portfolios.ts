@@ -19,6 +19,9 @@ export const Security: Company[] = [
     ],
   },
   {
+    logo: [{ href: 'https://gxc.io/', url: '/images/gxc-logo.jpg', width: 150 }],
+  },
+  {
     logo: [
       {
         href: 'https://ironcorelabs.com/',
@@ -55,6 +58,15 @@ export const Software: Company[] = [
   {
     logo: [
       {
+        href: 'https://5x5coop.com/',
+        url: '/images/five_five-logo.png',
+        width: 120,
+      },
+    ],
+  },
+  {
+    logo: [
+      {
         href: 'https://www.2048.vc/',
         url: '/images/2048-ventures-logo.png',
         width: 150,
@@ -67,6 +79,15 @@ export const Software: Company[] = [
         href: 'https://www.airtory.com/',
         url: '/images/airtory-logo.png',
         width: 150,
+      },
+    ],
+  },
+  {
+    logo: [
+      {
+        href: 'https://www.dignifi.com/',
+        url: '/images/dignifi-logo.png',
+        width: 170,
       },
     ],
   },
@@ -202,7 +223,7 @@ export const DigitalAssets: Company[] = [
     logo: [
       {
         href: 'https://unchained.com/',
-        url: '/images/UC-logo.png',
+        url: '/images/unchained.svg',
         width: 200,
       },
     ],
@@ -219,6 +240,15 @@ export const Emerging: Company[] = [
       },
     ],
     name: 'Allen Control Systems',
+  },
+  {
+    logo: [
+      {
+        href: 'https://harmonicbionics.com/',
+        url: '/images/harmonic_bionics.svg',
+        width: 150,
+      },
+    ],
   },
   {
     className: 'bg-primary',
@@ -238,27 +268,6 @@ export const Emerging: Company[] = [
         width: 90,
       },
     ],
-  },
-  {
-    logo: [
-      {
-        href: 'https://www.dignifi.com/',
-        url: '/images/dignifi-logo.png',
-        width: 170,
-      },
-    ],
-  },
-  {
-    logo: [
-      {
-        href: 'https://5x5coop.com/',
-        url: '/images/five_five-logo.png',
-        width: 120,
-      },
-    ],
-  },
-  {
-    logo: [{ href: 'https://gxc.io/', url: '/images/gxc-logo.jpg', width: 150 }],
   },
   {
     logo: [
