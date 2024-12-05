@@ -80,11 +80,10 @@ export const Software: Company[] = [
     ],
   },
   {
-    className: 'bg-primary',
     logo: [
       {
         href: 'https://Circuit.ai/',
-        url: '/images/Circuit.svg',
+        url: '/images/circuit.png',
         width: 150,
       },
     ],
