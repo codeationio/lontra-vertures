@@ -19,9 +19,6 @@ export const Security: Company[] = [
     ],
   },
   {
-    logo: [{ href: 'https://gxc.io/', url: '/images/gxc-logo.jpg', width: 150 }],
-  },
-  {
     logo: [
       {
         href: 'https://ironcorelabs.com/',
@@ -83,10 +80,20 @@ export const Software: Company[] = [
     ],
   },
   {
+    className: 'bg-primary',
     logo: [
       {
-        href: 'https://www.dignifi.com/',
-        url: '/images/dignifi-logo.png',
+        href: 'https://Circuit.ai/',
+        url: '/images/Circuit.svg',
+        width: 150,
+      },
+    ],
+  },
+  {
+    logo: [
+      {
+        href: 'https://Corvic.ai/',
+        url: '/images/corvic.svg',
         width: 170,
       },
     ],
@@ -94,9 +101,9 @@ export const Software: Company[] = [
   {
     logo: [
       {
-        href: 'https://www.molecula.com/',
-        url: '/images/Molecula-logo.png',
-        width: 200,
+        href: 'https://www.dignifi.com/',
+        url: '/images/dignifi-logo.png',
+        width: 170,
       },
     ],
   },
@@ -146,8 +153,17 @@ export const DigitalAssets: Company[] = [
   {
     logo: [
       {
-        href: 'https://credmark.com/',
-        url: '/images/Credmark.jpeg',
+        href: 'https://www.crowdout.com/',
+        url: '/images/crowdout_logo.png',
+        width: 120,
+      },
+    ],
+  },
+  {
+    logo: [
+      {
+        href: 'https://www.cruciblecap.xyz/',
+        url: '/images/crucible.png',
         width: 150,
       },
     ],
@@ -204,15 +220,6 @@ export const DigitalAssets: Company[] = [
   {
     logo: [
       {
-        href: 'https://toposware.com/',
-        url: '/images/toposware.jpeg',
-        width: 150,
-      },
-    ],
-  },
-  {
-    logo: [
-      {
         href: 'https://www.truetribe.xyz/',
         url: '/images/True-Tribe-Blue.png',
         width: 250,
@@ -242,6 +249,15 @@ export const Emerging: Company[] = [
     name: 'Allen Control Systems',
   },
   {
+    logo: [
+      {
+        href: 'https://balerionspace.com/',
+        url: '/images/balerionspace.webp',
+        width: 180,
+      },
+    ],
+  },
+  {
     className: 'bg-primary',
     logo: [
       {
@@ -252,22 +268,7 @@ export const Emerging: Company[] = [
     ],
   },
   {
-    logo: [
-      {
-        href: 'https://www.crowdout.com/',
-        url: '/images/crowdout_logo.png',
-        width: 90,
-      },
-    ],
-  },
-  {
-    logo: [
-      {
-        href: 'https://harmonicbionics.com/',
-        url: '/images/harmonic_bionics.svg',
-        width: 150,
-      },
-    ],
+    logo: [{ href: 'https://gxc.io/', url: '/images/gxc-logo.jpg', width: 150 }],
   },
   {
     logo: [
@@ -292,6 +293,15 @@ export const Emerging: Company[] = [
       {
         href: 'https://www.zenopower.com/',
         url: '/images/zeno_power_systems_logo.jpg',
+        width: 150,
+      },
+    ],
+  },
+  {
+    logo: [
+      {
+        href: 'https://www.corner.kitchen/',
+        url: '/images/Rito_CKlogo_Black.png',
         width: 150,
       },
     ],
@@ -424,6 +434,20 @@ export const Exits: Company[] = [
       {
         href: 'https://stoplight.io/',
         url: '/images/stoplight.png',
+        width: 200,
+      },
+    ],
+  },
+  {
+    logo: [
+      {
+        href: 'https://toposware.com/',
+        url: '/images/toposware.jpeg',
+        width: 200,
+      },
+      {
+        href: 'https://polygon.technology/',
+        url: '/images/polygon.png',
         width: 200,
       },
     ],
