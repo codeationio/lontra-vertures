@@ -91,6 +91,15 @@ export const Software: Company[] = [
   {
     logo: [
       {
+        href: 'https://ceramic.ai/',
+        url: '/images/Ceramic_ai_logo.png',
+        width: 150,
+      },
+    ],
+  },
+  {
+    logo: [
+      {
         href: 'https://Corvic.ai/',
         url: '/images/corvic.svg',
         width: 170,
@@ -137,15 +146,6 @@ export const Software: Company[] = [
   {
     logo: [{ href: 'https://rackn.com/', url: '/images/RackN-Logo.png', width: 200 }],
   },
-  {
-    logo: [
-      {
-        href: 'https://voltrondata.com/',
-        url: '/images/voltron-logo.svg',
-        width: 300,
-      },
-    ],
-  },
 ];
 
 export const DigitalAssets: Company[] = [
@@ -170,8 +170,8 @@ export const DigitalAssets: Company[] = [
   {
     logo: [
       {
-        href: 'https://www.dcspark.io/',
-        url: '/images/dcSpark-logo.png',
+        href: 'https://www.ethos.network/',
+        url: '/images/Ethos_logo.png',
         width: 150,
       },
     ],
@@ -248,6 +248,16 @@ export const Emerging: Company[] = [
     name: 'Allen Control Systems',
   },
   {
+    className: 'bg-black',
+    logo: [
+      {
+        href: 'https://www.aalo.com/',
+        url: '/images/aalo_logo.png',
+        width: 180,
+      },
+    ],
+  },
+  {
     logo: [
       {
         href: 'https://balerionspace.com/',
@@ -267,6 +277,9 @@ export const Emerging: Company[] = [
     ],
   },
   {
+    logo: [{ href: 'https://www.impulsespace.com/', url: '/images/impulseLogo.png', width: 150 }],
+  },
+  {
     logo: [{ href: 'https://gxc.io/', url: '/images/gxc-logo.jpg', width: 150 }],
   },
   {
@@ -274,6 +287,15 @@ export const Emerging: Company[] = [
       {
         href: 'https://www.orbitfab.com/',
         url: '/images/orbitfab-logo.png',
+        width: 150,
+      },
+    ],
+  },
+  {
+    logo: [
+      {
+        href: 'https://www.corner.kitchen/',
+        url: '/images/Rito_CKlogo_Black.png',
         width: 150,
       },
     ],
@@ -290,8 +312,8 @@ export const Emerging: Company[] = [
   {
     logo: [
       {
-        href: 'https://www.zenopower.com/',
-        url: '/images/zeno_power_systems_logo.jpg',
+        href: 'https://www.standardnuclear.com/',
+        url: '/images/standard_nuclear_Logo.jpg',
         width: 150,
       },
     ],
@@ -299,8 +321,17 @@ export const Emerging: Company[] = [
   {
     logo: [
       {
-        href: 'https://www.corner.kitchen/',
-        url: '/images/Rito_CKlogo_Black.png',
+        href: 'https://www.xbowsystems.com/',
+        url: '/images/XBOW_Logo-RGB-FullColor.png',
+        width: 150,
+      },
+    ],
+  },
+  {
+    logo: [
+      {
+        href: 'https://www.zenopower.com/',
+        url: '/images/zeno_power_systems_logo.jpg',
         width: 150,
       },
     ],
@@ -318,20 +349,12 @@ export const Healthcare: Company[] = [
     ],
   },
   {
+    className: 'bg-primary',
     logo: [
       {
         href: 'https://www.thefrontrowhealth.com/',
-        url: '/images/frontrow-logo.svg',
+        url: '/images/frontRow_logo.avif',
         width: 200,
-      },
-    ],
-  },
-  {
-    logo: [
-      {
-        href: 'https://joshin.com/',
-        url: '/images/joshin-logo.png',
-        width: 150,
       },
     ],
   },
@@ -350,15 +373,6 @@ export const Healthcare: Company[] = [
         href: 'https://www.subjectwell.com/',
         url: '/images/subjectwell-logo.png',
         width: 200,
-      },
-    ],
-  },
-  {
-    logo: [
-      {
-        href: 'https://www.vitalflohealth.com/',
-        url: '/images/vital-flo-logo.png',
-        width: 150,
       },
     ],
   },
@@ -447,6 +461,20 @@ export const Exits: Company[] = [
       {
         href: 'https://polygon.technology/',
         url: '/images/polygon.png',
+        width: 200,
+      },
+    ],
+  },
+  {
+    logo: [
+      {
+        href: 'https://joshin.com/',
+        url: '/images/joshin-logo.png',
+        width: 150,
+      },
+      {
+        href: 'https://www.rethinkfirst.com/',
+        url: '/images/logo-rethinkfirst-tagline.svg',
         width: 200,
       },
     ],

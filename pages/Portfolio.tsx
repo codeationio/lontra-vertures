@@ -23,7 +23,7 @@ const portfolio: PortfolioList[] = [
   },
   {
     companies: Emerging,
-    title: 'Robotics / Space',
+    title: 'Robotics / Space / DefenseAdd',
   },
   {
     companies: DigitalAssets,
