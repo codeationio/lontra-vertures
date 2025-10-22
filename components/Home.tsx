@@ -15,7 +15,7 @@ const Home = () => {
         </div>
       </div>
       <div className="flex md:items-center">
-        <Link href="/portfolio">
+        <Link href="/Portfolio">
           <a className="flex items-center">
             <h1 className="text-3xl text-white underline underline-offset-4 md:text-5xl">Portfolio</h1>
             <Image alt="right-arrow-icon" height={50} src="/images/right-arrow-icon.png" width={50} />
