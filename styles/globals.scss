@@ -1,18 +1,6 @@
-// Define helvetica font
-@font-face {
-  font-family: 'Helvetica';
-  src: url('/fonts/helvetica.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-* {
-   @apply font-helvetica;
-}
 
 
 @media screen and (max-width: 768px) {
