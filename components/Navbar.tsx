@@ -24,7 +24,7 @@ const Navbar = ({ type = 'blue' }) => {
           <figure className="m-4 ml-10 flex cursor-pointer items-center">
             <Image
               alt="Lontra ventures blue logo"
-              className="m-4 h-10"
+              className="m-4 h-[72px]"
               height={72}
               loading="eager"
               objectFit="contain"
