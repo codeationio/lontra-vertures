@@ -125,6 +125,9 @@ export const Software: Company[] = [
     ],
   },
   {
+    logo: [{ href: 'https://rackn.com/', url: '/images/RackN-Logo.png', width: 200 }],
+  },
+  {
     logo: [
       {
         href: 'https://www.reactivesearch.io/',
@@ -142,10 +145,7 @@ export const Software: Company[] = [
       },
     ],
     name: 'Sift',
-  },
-  {
-    logo: [{ href: 'https://rackn.com/', url: '/images/RackN-Logo.png', width: 200 }],
-  },
+  }
 ];
 
 export const DigitalAssets: Company[] = [
